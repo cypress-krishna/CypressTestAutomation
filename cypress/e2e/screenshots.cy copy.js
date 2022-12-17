@@ -7,6 +7,7 @@ describe('Login to the Application with Invalid Credentials', ()=> {
         cy.get("[name='login']").should('be.visible')
           .log('User successfully launched the application')
           cy.screenshot()
+        cy.log('screenshot capturing...')
     })
 
     it('Enter UserName and Invalid Password and click on Login button', ()=> {
