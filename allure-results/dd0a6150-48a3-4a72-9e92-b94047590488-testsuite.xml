@@ -1,0 +1,95 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671272894499' stop='1671272902240'>
+    <name>Login Page Objects</name>
+    <title>Login Page Objects</title>
+    <test-cases>
+        <test-case start='1671272894499' status='passed' stop='1671272896714'>
+            <name>Launch url</name>
+            <title>Launch url</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1671272896721' status='passed' stop='1671272897042'>
+            <name>Enter UserName</name>
+            <title>Enter UserName</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1671272897047' status='passed' stop='1671272897355'>
+            <name>Enter Password</name>
+            <title>Enter Password</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1671272897361' status='passed' stop='1671272899544'>
+            <name>click on login button</name>
+            <title>click on login button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1671272899559' status='passed' stop='1671272899609'>
+            <name>check user login is successful or not</name>
+            <title>check user login is successful or not</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1671272899613' status='passed' stop='1671272900495'>
+            <name>Click on Test Automation Navigation Link</name>
+            <title>Click on Test Automation Navigation Link</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1671272900506' status='passed' stop='1671272900810'>
+            <name>Enter Name</name>
+            <title>Enter Name</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1671272900829' status='passed' stop='1671272901124'>
+            <name>Enter Mobile Number</name>
+            <title>Enter Mobile Number</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1671272901130' status='passed' stop='1671272901523'>
+            <name>Enter Email Address</name>
+            <title>Enter Email Address</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1671272901529' status='passed' stop='1671272901835'>
+            <name>Enter Password</name>
+            <title>Enter Password</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1671272901840' status='passed' stop='1671272902240'>
+            <name>Enter Address and Click on Submit button</name>
+            <title>Enter Address and Click on Submit button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

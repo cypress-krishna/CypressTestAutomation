@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671272881857' stop='1671272885598'>
+    <name>Fill Details of Test Automation Screen-2</name>
+    <title>Fill Details of Test Automation Screen-2</title>
+    <test-cases>
+        <test-case start='1671272881857' status='passed' stop='1671272883429'>
+            <name>Launch the url</name>
+            <title>Launch the url</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1671272883437' status='passed' stop='1671272883871'>
+            <name>Click on Test Automation Navigation Link</name>
+            <title>Click on Test Automation Navigation Link</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1671272883880' status='passed' stop='1671272884210'>
+            <name>Enter Name</name>
+            <title>Enter Name</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1671272884214' status='passed' stop='1671272884506'>
+            <name>Enter Mobile Number</name>
+            <title>Enter Mobile Number</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1671272884511' status='passed' stop='1671272884890'>
+            <name>Enter Email Address</name>
+            <title>Enter Email Address</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1671272884895' status='passed' stop='1671272885203'>
+            <name>Enter Password</name>
+            <title>Enter Password</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1671272885208' status='passed' stop='1671272885598'>
+            <name>Enter Address and Click on Submit button</name>
+            <title>Enter Address and Click on Submit button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
