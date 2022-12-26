@@ -9,7 +9,8 @@
     "test-execution-chrome": "npx cypress run --browser chrome --headed --spec cypress/e2e/cypress-pageobjects/*.js",
     "run-single-test": "npx cypress run --browser chrome --headed --spec cypress/e2e/screenshots.cy.js",
     "allure:test": "npx cypress run --browser chrome --headed --spec cypress/e2e/cypress-pageobjects/*.js --reporter mocha-allure-reporter",
-    "report:allure": "allure generate allure-results --clean -o allure-report && allure open  allure-report"
+    "report:allure": "allure generate allure-results --clean -o allure-report && allure open  allure-report",
+    "cypress-dashboard-run": "npx cypress run --browser chrome --headed --record --key 7faf814a-3247-4dde-9d02-ac2f9cbfca0b"
   },
   "author": "Krishna",
   "license": "ISC",

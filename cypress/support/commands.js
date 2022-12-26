@@ -41,3 +41,29 @@ Cypress.Commands.add('navLinksClick', (paramNavItem)=> {
     }            
 });
 });
+
+Cypress.Commands.add("ClickOnStateName", (ExpectedVal)=> {
+  cy.get('table.wikitable>tbody>tr>td:first-child')
+    .each( ($e1, index, statesList) => {
+      const ActualVal = $e1.text()
+        // cy.log(actualStateName)
+      if(ActualVal.includes(ExpectedVal)){
+        cy.log(ActualVal)
+        cy.wrap($e1).find('a').first().click()
+                // cy.wrap($e1).find('a').last().click()
+          }
+      });
+});
+
+Cypress.Commands.add("ClickOnlistStateName", (ExpectedVal)=> {
+  cy.get('table.wikitable>tbody>tr>td:first-child')
+    .each( ($e1, index, statesList) => {
+      const ActualVal = $e1.text()
+        // cy.log(actualStateName)
+      if(ActualVal.includes(ExpectedVal)){
+        cy.log(ActualVal)
+        // cy.wrap($e1).find('a').first().click()
+                cy.wrap($e1).find('a').last().click()
+          }
+      });
+});

@@ -7,7 +7,8 @@ module.exports = (on, config) => {
 };
 
 module.exports = defineConfig({
-  reporter: 'cypress-mochawesome-reporter',  
+  reporter: 'cypress-mochawesome-reporter', 
+  projectId: "c6286p", 
   e2e: {
   "baseUrl": "https://itera-qa.azurewebsites.net",
   "pageLoadTimeout": 30000,
